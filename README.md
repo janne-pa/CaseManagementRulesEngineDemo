@@ -1,6 +1,6 @@
 # My Console App
 
-This is a demo how utilize https://github.com/microsoft/RulesEngine
+This is a demo how to utilize RulesEngine (https://github.com/microsoft/RulesEngine).
 
 ## Getting Started
 
