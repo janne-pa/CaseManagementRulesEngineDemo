@@ -1,6 +1,6 @@
 # My Console App
 
-This is a simple console application built using C#. 
+This is a demo how utilize https://github.com/microsoft/RulesEngine
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 1. Open a terminal and navigate to the project directory:
    ```
-   cd my-console-app
+   cd CaseManagementRulesEngineDemo
    ```
 
 2. Restore the project dependencies:
