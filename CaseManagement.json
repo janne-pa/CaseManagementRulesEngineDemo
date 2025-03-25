@@ -33,6 +33,14 @@
         "ErrorType": "Error",
         "RuleExpressionType": "LambdaExpression",
         "Expression": "sumA + sumB >= 1000"
+      },
+      {
+        "RuleName": "CountryNotMarsOrVenus",
+        "SuccessEvent": "25",
+        "ErrorMessage": "Country is either Mars or Venus.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "country != \"Mars\" AND country != \"Venus\""
       }
     ]
   }
