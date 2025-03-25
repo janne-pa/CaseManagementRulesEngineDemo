@@ -1,4 +1,4 @@
-# My Console App
+# Case Management - RulesEngine Demo
 
 This is a demo how to utilize RulesEngine (https://github.com/microsoft/RulesEngine).
 
