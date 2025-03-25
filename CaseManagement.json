@@ -1,0 +1,39 @@
+[
+  {
+    "WorkflowName": "CaseManagement",
+    "Rules": [
+      {
+        "RuleName": "GiveDiscountForJupiter",
+        "SuccessEvent": "5",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "country == \"Jupiter\""
+      },
+      {
+        "RuleName": "GiveDiscountForJupiterWithLoyaltyFactor3",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "country == \"Jupiter\" AND loyaltyFactor >= 3"
+      },
+      {
+        "RuleName": "TaskK",
+        "SuccessEvent": "15",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "caseType == \"x\" AND (DateTime.Parse(currentDate) - DateTime.Parse(activationDate)).TotalDays >= 7"
+      },
+      {
+        "RuleName": "TotalSum1000",
+        "SuccessEvent": "20",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "sumA + sumB >= 1000"
+      }
+    ]
+  }
+]
