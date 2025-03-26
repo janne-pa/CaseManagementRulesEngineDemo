@@ -2,6 +2,10 @@
 
 This is a demo how to utilize RulesEngine (https://github.com/microsoft/RulesEngine).
 
+Architecure Vision how one could create microservice for RulesEngine:
+![Alt text](ArchitectureVision.png?raw=true "Architecure Vision")
+
+
 ## Getting Started
 
 To get a copy of this project up and running on your local machine, follow these steps:
